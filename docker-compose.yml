@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:18.3
+    container_name: skyid_postgres
+    restart: unless_stopped
+
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+    ports:
+      - "5432:5432"
+ 
+    volumes:
+      - skyid_postgres_data:/var/lib/postgresql
