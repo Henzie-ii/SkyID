@@ -12,6 +12,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = "identity.User"
 
 # Application definition
 INSTALLED_APPS = [
