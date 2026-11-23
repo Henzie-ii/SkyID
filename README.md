@@ -253,7 +253,7 @@ Ensure the following tools are installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SkyID.git
+git clone https://github.com/Henzie-ii/SkyID.git
 
 cd SkyID
 ```
